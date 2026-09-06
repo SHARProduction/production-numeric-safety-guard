@@ -1,0 +1,8 @@
+{
+  "name": "@sharproduction/production-numeric-safety-guard",
+  "version": "1.0.0",
+  "exports": "./src/index.mjs",
+  "license": "MIT",
+  "homepage": "https://sharprod.com/",
+  "description": "SHAR Production finite-number preflight library for production calculator inputs."
+}
