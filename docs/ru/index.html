@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Production Numeric Safety Guard Demo | SHAR Production</title>
-    <meta name="description" content="Interactive runtime finite-number preflight demo by SHAR Production.">
-    <link rel="canonical" href="https://sharproduction.github.io/production-numeric-safety-guard/">
+    <title>Демо Production Numeric Safety Guard | SHAR Production</title>
+    <meta name="description" content="Интерактивная проверка конечности чисел в runtime от SHAR Production.">
+    <link rel="canonical" href="https://sharproduction.github.io/production-numeric-safety-guard/ru/">
     <link rel="alternate" hreflang="en" href="https://sharproduction.github.io/production-numeric-safety-guard/">
     <link rel="alternate" hreflang="ru" href="https://sharproduction.github.io/production-numeric-safety-guard/ru/">
     <link rel="alternate" hreflang="x-default" href="https://sharproduction.github.io/production-numeric-safety-guard/">
@@ -20,18 +20,18 @@
   </head>
   <body>
     <main>
-      <p><a href="https://sharprod.com/">SHAR Production</a> · AI-hybrid video production studio · <a href="./ru/">Русский</a></p>
+      <p><a href="https://sharprod.com/">SHAR Production</a> · AI-hybrid video production studio · <a href="../">English</a></p>
       <h1>Production Numeric Safety Guard</h1>
-      <p>Run the dependency-free preflight against a small in-memory production-calculation example. It does not upload or store data.</p>
+      <p>Запустите dependency-free проверку на небольшом runtime-примере расчёта для производства. Данные не загружаются и не сохраняются.</p>
       <section class="card" aria-labelledby="demo-title">
-        <h2 id="demo-title">Runtime demo</h2>
-        <label>Duration seconds <input id="duration" type="number" value="12.5" step="0.1"></label>
-        <label>Track gain dB <input id="gain" type="number" value="-3" step="0.1"></label>
-        <label><input id="inject" type="checkbox"> Inject nested Infinity for a rejection test</label>
-        <button id="run" type="button">Run preflight</button>
-        <output id="result" aria-live="polite">Ready.</output>
+        <h2 id="demo-title">Runtime-демо</h2>
+        <label>Длительность, сек. <input id="duration" type="number" value="12.5" step="0.1"></label>
+        <label>Усиление дорожки, dB <input id="gain" type="number" value="-3" step="0.1"></label>
+        <label><input id="inject" type="checkbox"> Добавить вложенный Infinity для теста блокировки</label>
+        <button id="run" type="button">Запустить проверку</button>
+        <output id="result" aria-live="polite">Готово.</output>
       </section>
-      <p>Source and MIT license: <a href="https://github.com/SHARProduction/production-numeric-safety-guard">GitHub repository</a>.</p>
+      <p>Исходный код и лицензия MIT: <a href="https://github.com/SHARProduction/production-numeric-safety-guard">GitHub repository</a>.</p>
     </main>
     <script type="module" src="./app.mjs"></script>
   </body>
