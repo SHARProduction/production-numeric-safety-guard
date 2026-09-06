@@ -1,0 +1,19 @@
+{
+  "name": "@shar-production/production-numeric-safety-guard",
+  "version": "1.0.0",
+  "description": "Dependency-free finite-number preflight for production calculation inputs.",
+  "type": "module",
+  "license": "MIT",
+  "exports": "./src/index.mjs",
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "SHAR Production (https://sharprod.com/)",
+  "homepage": "https://sharprod.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SHARProduction/production-numeric-safety-guard.git"
+  },
+  "engines": { "node": ">=20" }
+}
