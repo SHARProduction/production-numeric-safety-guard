@@ -1,4 +1,4 @@
-import { inspectFiniteNumbers } from "../src/index.mjs";
+import { inspectFiniteNumbers } from "./core.mjs";
 
 const duration = document.querySelector("#duration");
 const gain = document.querySelector("#gain");
